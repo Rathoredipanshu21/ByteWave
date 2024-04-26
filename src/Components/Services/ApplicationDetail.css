@@ -1,0 +1,200 @@
+.main_page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .Main{
+   
+    height: auto;
+    background-color: black;
+  }
+  
+  .project {
+    padding: 3rem;
+    font-size: 1.5rem;
+    color:#0ad801;
+    font-weight: 500;
+  }
+  .project p{
+    color: #ccc !important;
+  }
+  
+  .project hr {
+    border: none;
+    height: 2px;
+    background-color: #333; 
+    /* margin-top: 1rem; */
+}
+  .project-togler {
+    position: relative;
+   padding: 5rem;
+    width: 300px; 
+}
+.project-togler select{
+  padding: 0.7rem;
+  font-size: 16px;
+  border: 1px solid #0ad801;
+  border-radius: 9px;
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+    
+  
+  /* select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    appearance: none;
+    background-color: #fff;
+    cursor: pointer;
+  }
+   */
+   
+.project-togler select:hover {
+  border-color: 2px solid #999;
+}
+
+.project-togler select:focus {
+  border-color: #0ad801;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+  select::after {
+    content: '\25BC'; 
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none; 
+  }
+  
+  select option {
+    background-color: #fff;
+    color: #333;
+  }
+  .our-work-card {
+    transition: transform 0.3s ease-in-out, 
+    box-shadow 0.3s ease-in-out, 
+    background-color 0.3s ease-in-out; /* Smooth transitions */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    padding: 3rem;
+    /* border: 1px solid #ccc; */
+    border-radius: 5px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .work-content {
+    flex: 1;
+    transition: transform 0.3s ease;
+   
+    /* background-color: #f5f5f5; */
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .work-content h2 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .work-content p {
+    font-size: 1.1rem;
+  }
+  
+  .work-image {
+    flex: 1;
+    margin-left: 20px;
+    transform: scale(1.02);
+  }
+  .work-image:hover{
+    transition:transform 0.2 ease-in-out
+  }
+  
+  .work-image img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 5px;
+  }
+  .modal {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Added */
+    border-radius: 1rem;
+    color: white;
+    background-color: #000000;
+    margin: 15% auto;
+    padding: 15px;
+    border: 1px solid #888;
+    width: 50%;
+    animation-name: zoom;
+    height: 50%;
+    animation-duration: 0.6s;
+   
+  }
+  
+  .modal-left {
+    flex: 1; /* Take up remaining space */
+    padding-right: 10px; /* Added */
+  }
+  
+  .modal-right {
+    flex: 1;
+    padding-left: 10px; /* Added */
+  }
+  
+  .modal img {
+    width: 100%;
+    max-width: 100%; /* Adjust as needed */
+  }
+  
+  .modal-content h1,
+  .modal-content p {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Modal close button */
+  .close {
+    position: absolute;
+    color: #aaa;
+    /* margin-bottom: 400px; */
+    font-size: 28px;
+    font-weight: bold;
+    top: 250px;
+  right: 390px; /* Position close button in the upper right corner */
+  font-size: 24px;
+  cursor: pointer;
+  }
+  
+.close:hover,
+.close:focus {
+  color: rgb(248, 244, 244);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Animation */
+@keyframes zoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+.our-work-card:hover .work-content {
+  transform: translateY(-100%);
+}

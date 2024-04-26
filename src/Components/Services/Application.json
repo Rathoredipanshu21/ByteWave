@@ -1,0 +1,42 @@
+[{
+    "id": 1,
+    "title": "E-commerce Application",
+    "desc": "Streamlined online platform for shopping various products, offering convenience, secure transactions, diverse selection, and reliable customer service.",
+    "image": "https://img.freepik.com/free-vector/biology-cells-informational-website-graphic_53876-35284.jpg?w=900"
+},
+{
+    "id": 2,
+    "title": "Goverment Application",
+    "desc": "Efficient government app for citizens, providing services, information, and assistance, ensuring transparency, accessibility, and user-friendly interface for all.",
+    "image": "https://img.freepik.com/free-vector/flat-design-technology-landing-page-template_23-2149200405.jpg?w=900"
+},
+{
+    "id": 3,
+    "title": "Academy Application",
+    "desc": "Comprehensive academy app for learners, offering courses, resources, interactive lessons, progress tracking, and expert guidance, enhancing education experience seamlessly.",
+    "image": "https://img.freepik.com/free-vector/gradient-luxury-law-firm-landing-page-template_23-2149335902.jpg?w=900"
+},
+{
+    "id": 4,
+    "title": "Individual Product Application",
+    "desc": "Tailored product app for personal use, facilitating easy access, customization, purchase, and management, ensuring seamless and satisfying user experience",
+    "image": "https://img.freepik.com/free-vector/landing-page-template-with-abstract-shapes_23-2148250166.jpg?w=900"
+},
+{
+    "id": 5,
+    "title": "institution Application",
+    "desc": "Institutional app for streamlined operations, communication, collaboration, and management, fostering efficiency, organization, and seamless interaction within the institution's community.",
+    "image": "https://images.unsplash.com/photo-1590935216595-f9fc9b65179d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8aW5zdGl0dXRpb24lMjBhcHBsaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+},
+{
+    "id": 6,
+    "title": "Social Media Application",
+    "desc": "Engaging social platform connecting users globally, enabling sharing, communication, networking, and discovery of diverse content and communities.",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fHNvY2lhbCUyMG1lZGlhJTIwYXBwbGljYXRpb258ZW58MHx8MHx8fDA%3D"
+},
+{
+    "id": 7,
+    "title": "Android and iOS devices Application",
+    "desc": "Cross-platform mobile app for Android and iOS devices, providing seamless user experience, functionality, and accessibility on both operating systems.",
+    "image": "https://images.unsplash.com/photo-1521931961826-fe48677230a5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGFuZHJvaWQlMjBhbmQlMjBpb3MlMjBhcHBsaWNhdGlvbnxlbnwwfHwwfHx8MA%3D%3D"
+}]

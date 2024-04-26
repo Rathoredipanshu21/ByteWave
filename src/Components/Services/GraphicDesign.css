@@ -1,0 +1,28 @@
+.graphic-design-container {
+    margin: 20px; /* Add margin for spacing */
+    padding: 20px; 
+    color: #fff;/* Add padding for spacing */
+    padding-top: 100px;
+    width: 60%;
+    margin: 2px auto;
+  }
+  
+  .graphic-design-container h1 {
+    text-align: center; /* Center-align heading */
+  }
+  
+  .graphic-design-container p {
+    text-align: justify; /* Justify-align paragraph text */
+  }
+  
+  .image-gallery {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center-align images */
+    gap: 20px; /* Add gap between images */
+  }
+  
+  .image-gallery img {
+    max-width: 300px; /* Limit maximum width of images */
+    border-radius: 8px; /* Add border radius for rounded corners */
+  }
+  

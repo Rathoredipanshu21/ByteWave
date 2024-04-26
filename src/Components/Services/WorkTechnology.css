@@ -1,0 +1,82 @@
+
+    .background-worktechno {
+        /* background-color:#ffeeee; */
+        background-color: #000;
+        color: #fff;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        height: 50vh;
+        align-items: center;
+      }
+
+  .imag {
+  margin-left: 2vw;
+  width: 20vmin; 
+  height: 10vmin; 
+  transition: transform 0.3s ease;
+}
+  
+  
+  .slider {
+    height: 20vw;
+    margin: auto;
+    position: relative;
+    width: 80vw;
+    overflow: hidden;
+    transform: translateZ(0);
+  }
+  
+  .slider-track {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: calc(10vw * 18);
+    animation: Scroll 20s linear infinite; 
+  }
+  
+  .slid {
+    width: 10vw;
+    height: 8vw;
+    display: flex;
+    align-items: center;
+    padding: 1.5vw;
+    perspective: 5vw;
+    margin: 1vw;
+  }
+  
+  @keyframes Scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-10vw * 9);
+    }
+  }
+
+
+  
+  @media only screen and (max-width: 600px) {
+    @media only screen and (max-width: 600px) {
+        .imag {
+            width: 40vmin;
+            height: auto; 
+            margin-left: 5vw; 
+          }
+        
+          .slid {
+            width: 40vw;
+            height: auto; 
+            padding: 1vw; 
+            margin: 1vw;
+          }}
+      
+  }
+  
+  @media only screen and (min-width: 600px) and (max-width: 900px) {
+   
+  }
+  
+  @media only screen and (min-width: 900px) {
+  
+  }

@@ -1,0 +1,127 @@
+.hero-section-main {
+  display: flex;
+  align-items: center;
+  background-color: black;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+.hero-section-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 2px auto;
+  width: 50%;
+}
+
+.hero-section-right {
+  width: 50%;
+}
+
+.hero-section-left h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 2.2rem;
+  padding-top: 50px;
+  padding-left: 50px;
+}
+
+.hero-section-left p {
+  color: white;
+  font-size: 2rem;
+  padding-left: 50px;
+  font-family: "Roboto", sans-serif;
+}
+
+#span {
+  color: red;
+}
+
+button {
+  background-color: green;
+  width: 14%;
+  margin-left: 64px;
+  border-radius: 6px;
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-family: "Roboto", sans-serif;
+}
+#abtn{
+  text-decoration: none;
+  color: #fff;
+}
+
+.hero-title,
+.hero-description {
+  animation-name: focus-in-expand-top;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: none;
+}
+
+@keyframes focus-in-expand-top {
+  0% {
+    letter-spacing: -0.5em;
+    transform: translateY(-300px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
+/* for phone */
+@media only screen and (max-width: 600px) {
+  .hero-section-main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .hero-section-left,
+  .hero-section-right {
+    width: 100%;
+    padding-top: 80px;
+  }
+
+  .hero-section-left h1 {
+    font-size: 1.2rem;
+    padding-top: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .hero-section-left p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .hero-section-right img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    transform: scale(1.5);
+    padding-left: 30px;
+  }
+  button {
+    width: 50%;
+    margin: 20px auto;
+    font-size: 1.2rem;
+  }
+}
+
+
+
+/* for tab */
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+}
+
+/* desktop */
+@media only screen and (min-width: 900px) {
+}

@@ -1,0 +1,26 @@
+.internship-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    padding-top: 100px;
+  }
+  
+  .internship-details {
+    margin-top: 30px;
+  }
+  
+  .internship-details p {
+    margin-bottom: 15px;
+  }
+  
+  .internship-details ul {
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .internship-details li {
+    margin-bottom: 10px;
+  }
+  
